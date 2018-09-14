@@ -1,0 +1,10 @@
+{
+  "name": "php-tutorial",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gitbook build"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
