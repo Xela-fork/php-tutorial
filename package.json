@@ -2,7 +2,8 @@
   "name": "php-tutorial",
   "version": "1.0.0",
   "scripts": {
-    "build": "gitbook build"
+    "build": "gitbook build",
+    "dev": "gitbook serve"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2"
