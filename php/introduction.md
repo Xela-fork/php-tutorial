@@ -37,7 +37,7 @@ To be able to understand each other, all these machines must speak the same lang
 Thus, the Web is based on the HTTP protocol, for HyperText Transfer Protocol.
 
 
-To use the HTTP protocol, we will have to use a web browser (Chrome, Safari, etc.).
+To use the HTTP protocol, we will have to use a web browser (Chrome, Firefox, Safari, Opera, Brave, Edge, etc.).
 
 
 When you request access to a web page, you go through a browser and use the HTTP protocol.
