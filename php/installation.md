@@ -4,7 +4,36 @@
 
 If you are using Windows, you must go [here](https://windows.php.net/download/) and then choose the latest version of PHP (currently 7.2.10) and download the Zip archive choosing either 32 or 64 bits depending on your environment.
 
-Then you will extract the files in a folder of your choice, for example in the local C disk in the directory PHP so the path will be <code>%appdata%\PHP</code>. Then if you are using Windows 7 open the Control Panel and for Windows 10 it will be the "old" Control Panel, then go in "**System**" and click on "**Advanced System Settings**" and then at the top left click on "**Environment variables**" then search for a variable named "**PATH**" and click "**Modify**" and then click on "**New**" and add the path where you extracted the PHP files for example <code>%appdata%\PHP</code>. If the "**PATH**" variable doesn't exist, create it by clicking on "**New**" and put as variable name "**PATH**" and as value the PHP files path for example <code>%appdata%\PHP</code>
+![Download page of PHP for Windows](/images/php-windows-download-page.png)
+> Be sure to download the Zip and not the Debug pack or the source code.
+
+Then you will extract the files in a folder of your choice, for example in a folder named PHP in appdata example : <code>%appdata%\PHP</code>. Then if you are using Windows 7 open the Control Panel and for Windows 10 it will be the "old" Control Panel.
+
+![Old control panel](/images/w10-old-control-panel.png)
+
+Then go to "**System**"
+ 
+![System in control panel](/images/system-in-control-panel.png)
+
+At the top left click on "**Advanced System Settings**"
+ 
+![Advanced System Settings](/images/advanced-system-settings.png)
+
+A new window will show up, there click on "**Environment variables**"
+
+![Environment variables](/images/environment-variables.png)
+
+Now, search for a variable named "**PATH**" and click "**Modify**"
+
+![Path variable](/images/path-variable.png)
+
+Then, a new window will show up and there click on "**New**" and add the path where you extracted the PHP files. For example <code>%appdata%\PHP</code> Then, click on "OK".
+
+![Add the PHP files path into PATH variable](/images/add-php-files-path.png)
+
+If the "**PATH**" variable doesn't exist, create it by clicking on "**New**" and put as variable name "**PATH**" and as value the PHP files path for example <code>%appdata%\PHP</code> and then click on "OK".
+
+![Create PATH variable](/images/create-path-variable.png)
 
 When you are finished, open a new command prompt if you have already opened one. Then run <code>php -v</code> and it should return a message similar to this one
 <pre><code>PHP 7.2.10 (cli) (built: Sep 13 2018 04:07:33) ( NTS MSVC15 (Visual C++ 2017) x64 )
