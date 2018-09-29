@@ -12,4 +12,20 @@ Copyright (c) 1997-2018 The PHP Group
 Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies</code></pre>
 If it doesn't then you made a mistake and you should re read the tutorial.
 
+### MacOS
+On MacOS however, the process is much easier. We will use [Homebrew](https://brew.sh/) which is a package manager for MacOS. 
+
+In order to install Homebrew, you just have to enter this script in your terminal of choice.
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+> For more information about installing homebrew, please visit this [page](https://docs.brew.sh/Installation).
+
+Then, verify the installation by running ``brew --version``.
+
+Now that you have Homebrew installed, we should be able to install PHP. Simply run this command: ``brew install php72``. Just like in the Windows installation part, verify your installation by running ``php -v``. Great, PHP is now installed on your system!
+
+### Internal server
+
 Now, in order to launch the built-in PHP development server you can run <code>php -S localhost:4000</code> this will use the current directory as the root directory and it will be accessible at this address <code>http://localhost:4000/</code> altenartively you can change **localhost** to **0.0.0.0** which will make the server listen on all interfaces so on a device which is on the same network as the server you will be able to access it using the local IP. You can also modify php ini configuration with the <code>-d</code> flag for example to display the errors <code>-d display_errors=1</code> and in order to change the root directory you need to use the <code>-t</code> flag. Example <code>-t public/</code> will change the root directory to the <code>public</code> folder.
