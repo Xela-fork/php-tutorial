@@ -6,7 +6,6 @@
    * [What is PHP?](php/introduction.md)
    * [Installation & Internal server](php/installation.md)
    * [Syntax](php/syntax.md)
-   * [First Instructions](php/first-instructions.md)
    * [Variables](php/variables.md)
    * [Data Types](php/data-types.md)
    * [Concatenation](php/concatenation.md)
