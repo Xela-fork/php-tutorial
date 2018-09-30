@@ -1,4 +1,8 @@
 {
     "title": "PHPTutorial",
-    "author": "Xela"
+    "author": "Xela",
+    "plugins": [
+        "ace"
+    ],
+    "pluginsConfig": {}
 }
