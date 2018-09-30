@@ -36,9 +36,11 @@ If the "**PATH**" variable doesn't exist, create it by clicking on "**New**" and
 ![Create PATH variable](/images/create-path-variable.png)
 
 When you are finished, open a new command prompt if you have already opened one. Then run <code>php -v</code> and it should return a message similar to this one
-<pre><code>PHP 7.2.10 (cli) (built: Sep 13 2018 04:07:33) ( NTS MSVC15 (Visual C++ 2017) x64 )
+```
+PHP 7.2.10 (cli) (built: Sep 13 2018 04:07:33) ( NTS MSVC15 (Visual C++ 2017) x64 )
 Copyright (c) 1997-2018 The PHP Group
-Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies</code></pre>
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+```
 If it doesn't then you made a mistake and you should re read the tutorial.
 
 ### MacOS
