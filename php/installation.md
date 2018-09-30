@@ -52,8 +52,52 @@ In order to install Homebrew, you just have to enter this script in your termina
 > For more information about installing homebrew, please visit this [page](https://docs.brew.sh/Installation).
 
 Then, verify the installation by running ``brew --version``.
-
+ 
 Now that you have Homebrew installed, we should be able to install PHP. Simply run this command: ``brew install php72``. Just like in the Windows installation part, verify your installation by running ``php -v``. Great, PHP is now installed on your system!
+
+
+### Linux
+
+In this section, we will cover the installation for Ubuntu/Debian based distributions, as well as ArchLinux. For more information about other distributions, visit this [page](https://secure.php.net/manual/en/install.unix.php).
+
+#### Ubuntu/Debian based distributions
+
+In order to install PHP 7.2, we will need to add this [PPA](https://launchpad.net/~ondrej/+archive/ubuntu/php). Open your terminal and run this command:
+
+On Ubuntu:
+
+```
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+```
+
+On Debian:
+
+```
+sudo apt install apt-transport-https lsb-release ca-certificates
+sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+sudo sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
+sudo apt update
+```
+
+You should now be able to install the php7.2 package.
+
+```
+sudo apt install php7.2
+```
+
+Verify the installation by running ``php -v``. 
+
+#### ArchLinux
+
+On ArchLinux, the ``php`` package is available from the official repositories. So just run this command:
+
+```
+sudo pacman -S php
+```
+
+PHP should now be up and running on your system!
+
 
 ### Internal server
 
