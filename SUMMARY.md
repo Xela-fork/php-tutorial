@@ -1,7 +1,7 @@
 # Summary
 
 * [Welcome](README.md)
-    
+
 * [Basics]()
    * [What is PHP?](php/introduction.md)
    * [Installation & Internal server](php/installation.md)
@@ -10,12 +10,12 @@
    * [Data Types](php/data-types.md)
    * [Concatenation](php/concatenation.md)
    * [Operations](php/operations.md)
-   * [Control flow](php/control-flow.md) 
-        * [If/Else condition](php/control-flow.md#If-conditions) 
-        * [Switch statement](php/control-flow.md#Switch) 
-        * [Loops](php/control-flow.md#Loops) 
-            * [For](php/control-flow.md#For) 
-            * [While](php/control-flow.md#While) 
+   * [Control flow](php/control-flow.md)
+        * [If/Else condition](php/control-flow.md#If-conditions)
+        * [Switch statement](php/control-flow.md#Switch)
+        * [Loops](php/control-flow.md#Loops)
+            * [For](php/control-flow.md#For)
+            * [While](php/control-flow.md#While)
             * [Foreach](php/control-flow.md#Foreach)
    * [Comparison conditions & operators](php/comparison-conditions-and-operators.md)
    * [Ternary structures](php/ternary-structures.md)
