@@ -1,5 +1,3 @@
-<link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css" />
-
 # Syntax
 
 ## Positionning PHP in a file
