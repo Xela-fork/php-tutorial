@@ -1,3 +1,5 @@
+<link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css" />
+
 # Syntax
 
 ## Positionning PHP in a file
@@ -13,7 +15,7 @@ When a file does only contain PHP, you should avoid closing the PHP tag with `?>
 
 Example of PHP and HTML mixed content:
 
-{%ace edit=false, lang='php', theme='monokai'%}
+```html
 <?php
 // Some PHP code
 ?>
@@ -27,14 +29,14 @@ Example of PHP and HTML mixed content:
     <!-- Some HTML content -->
   </body>
 </html>
-{%endace%}
+```
 
 Example of pure PHP file:
 
-{%ace edit=false, lang='php', theme='monokai'%}
+```php
 <?php
 // Some PHP code
-{%endace%}
+```
 
 ## Comments
 
@@ -45,7 +47,7 @@ They're used to give informations to other developpers, and future you 😉
 In PHP, single line comments use `//` to start the comment.
 Multiple lines comments start with `/*` and end with `*/`.
 
-{%ace edit=false, lang='php', theme='monokai'%}
+```php
 <?php
 // Single ligne comment
 some code // Comments can be found at the end of a line
@@ -54,7 +56,7 @@ Here is
 a multiline
 comment
 */
-{%endace%}
+```
 
 Note that while the code should tell how, the comments should tell why.
 
@@ -66,7 +68,7 @@ People beginning development tends to often forget semicolons; you should try to
 
 Here is the mandatory "Hello world" to show the use of what was presented in this chapter:
 
-{%ace edit=false, lang='php', theme='monokai'%}
+```php
 <?php
 echo 'hello, world'; // Note the ; at the end of the line, this code won't work without it
-{%endace%}
+```
