@@ -2,6 +2,12 @@
 
 ### Windows
 
+#### Automatic
+
+To make your life easier, we have made a powershell script that automatically downloads PHP and adds it to the PATH of your system. The script is available [here](/install.ps1).
+
+#### Manual
+
 If you are using Windows, you must go [here](https://windows.php.net/download/) and then choose the latest version of PHP (currently 7.2.10) and download the Zip archive choosing either 32 or 64 bits depending on your environment.
 
 ![Download page of PHP for Windows](/images/php-windows-download-page.png)
