@@ -54,7 +54,7 @@ NB: Quotation marks should only be used when you want to concatenate a string li
 ```php
 <?php
 $message = 'Hello World';
-$alert = "${$message} has been sent.";
+$alert = "{$message} has been sent.";
 ```
 
 Thus, the value of `$alert` will be `Hello World has been sent.`.
